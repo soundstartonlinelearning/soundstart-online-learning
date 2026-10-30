@@ -1,0 +1,2 @@
+const form=document.querySelector('#enquiry');
+if(form){form.addEventListener('submit',e=>{e.preventDefault();const out=document.querySelector('#formMessage');out.textContent='Thank you. The demonstration form was completed successfully. No information was sent or stored.';form.reset();});}
